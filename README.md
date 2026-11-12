@@ -30,7 +30,10 @@ openspec/
     specs/<capability>/spec.md  7 個能力的行為規格（SHALL + Scenario）
     design.md                   技術決策 D1–D7、風險
     tasks.md                    實作任務清單（含驗證方式）
-source/                         課堂原始素材（docx、pptx、PDF）
+deliverables/
+  DietSense_Proposal_v2.docx    繳交用 Proposal 文件（由 docs/ + DESIGN.md 產生）
+  DietSense_Proposal_Presentation_v2.pptx  繳交用簡報（22 頁，已更新數據與文獻）
+source/                         課堂原始素材（docx、pptx、PDF；舊版，含未查證文獻）
 ```
 
 ## Spec-Driven Workflow（OpenSpec）
