@@ -1,0 +1,35 @@
+schema: spec-driven
+
+context: |
+  Language: Traditional Chinese (zh-TW)
+  All artifacts must be written in Traditional Chinese (zh-TW).
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  Project: DietSense — 對話式、資料錨定、安全導向的飲食熱量 Domain AI Agent（DIC3 期末專題）。
+  System design source of truth: DESIGN.md（①–⑧ 八模組架構）。
+  Core principle: LLM 負責理解與協調；所有營養數值由確定性工具計算並附來源；安全規則獨立於 LLM。
+  Core capabilities: C1 自然語言輸入、C2 主動式智慧互動、C3 情境感知、C4 大數據驅動。
+  Data: USDA FoodData Central、臺灣食品營養成分資料庫（TFDA）、自建臺式料理知識庫。
+  All numeric targets are Expected Outcomes until measured; never present targets as results.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
